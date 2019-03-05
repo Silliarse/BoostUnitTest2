@@ -68,7 +68,7 @@ on_finish:
 
 
     "SET PATH=C:\\Python24;C:\\Python24\\Scripts;%PATH%"
-    C:\\Python24\python.exe -m pip install --upgrade pip
+    C:\\Python24\\python.exe -m pip install --upgrade pip
     pip install codecov
 
     codecov -f .\ConvertedReport.xml -X gcov
