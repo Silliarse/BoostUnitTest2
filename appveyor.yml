@@ -67,7 +67,7 @@ on_finish:
     cat C:\projects\boostunittest2\ConvertedReport.xml
 
 
-    "SET PATH=C:\\Python2;C:\\Python2\\Scripts;%PATH%"
+    "SET PATH=C:\\Python;C:\\Python\\Scripts;%PATH%"
     python -m pip install --upgrade pip
     pip install codecov
 
