@@ -71,4 +71,4 @@ on_finish:
    
     pip install codecov
 
-    //codecov -f .\ConvertedReport.xml -X gcov
+    codecov -f .\ConvertedReport.xml -X gcov
